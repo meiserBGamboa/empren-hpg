@@ -16,7 +16,14 @@ const Home = () => {
                 <Layout >
                     <Carousel autoplay>
                         <div >
-                            <div style={{backgroundImage: `url(${(banner1) ? banner1 : banner1})`, height: 600}} class="slider-content-box">
+                            <div 
+                                style={{
+                                    backgroundImage: `url(${(banner1) ? banner1 : banner1})`, 
+                                    height: 600,
+                                    backgroundSize: '100%',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat'
+                                }} >
                                 <Row gutter={16} 
                                     align='middle' 
                                     style={{textAlign: 'center', height: '100%', margin: '0'}}

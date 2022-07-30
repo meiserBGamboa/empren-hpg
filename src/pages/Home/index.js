@@ -1,12 +1,30 @@
-import { Carousel, Col, Layout, Row, Typography } from "antd"
+import { Col, Layout, Row, Typography } from "antd"
 import React from "react"
 import Navbar from "../Navbar"
-import banner1 from '../../assets/images/model-01.jpg'
+
+import banner2 from '../../assets/images/banner-02.png'
+import banner3 from '../../assets/images/banner-03.png'
+
 import service1 from '../../assets/images/image_01.jpg'
 import project1 from '../../assets/images/image_05.jpg'
+
 import Footer from "../Footer"
+import Banner from "./Banner"
 
 const { Title } = Typography
+
+const dataBanner = [
+    {
+        title: 'PROFESSIONAL TILING AND PAINTING SERVICES',
+        description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
+        banner: banner2
+    },
+    {
+        title: 'PROFESSIONAL TILING AND PAINTING SERVICES',
+        description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
+        banner: banner3
+    },
+]
 
 const Home = () => {
     return (
@@ -14,53 +32,7 @@ const Home = () => {
             <Layout >
                 <Navbar />
                 <Layout >
-                    <Carousel autoplay>
-                        <div >
-                            <div 
-                                style={{
-                                    backgroundImage: `url(${(banner1) ? banner1 : banner1})`, 
-                                    height: 600,
-                                    backgroundSize: '100%',
-                                    backgroundPosition: 'center',
-                                    backgroundRepeat: 'no-repeat'
-                                }} >
-                                <Row gutter={16} 
-                                    align='middle' 
-                                    style={{textAlign: 'center', height: '100%', margin: '0'}}
-                                >
-                                    <Col span={6} offset={3} >
-                                        <Row >
-                                            <Col span={24} style={{whiteSpace: "normal", background: 'rgba(38, 38, 40, 0.7)', color: 'white', padding: '20px 10px', borderBottom: '1px' }}>
-                                                <Title level={2} style={{ color: 'white'}}>PROFESSIONAL TILING AND PAINTING SERVICES</Title>
-                                            </Col>
-                                            <Col span={24} style={{whiteSpace: "normal", background: 'rgba(38, 38, 40, 0.5)', color: 'white', padding: '35px 20px' }}>
-                                                <p>We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</p>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </div>
-                        <div >
-                            <div style={{backgroundImage: `url(${(banner1) ? banner1 : banner1})`, height: 600}} class="slider-content-box">
-                                <Row gutter={16} 
-                                    align='middle' 
-                                    style={{textAlign: 'center', height: '100%', margin: '0'}}
-                                >
-                                    <Col span={6} offset={3} >
-                                        <Row >
-                                            <Col span={24} style={{whiteSpace: "normal", background: 'rgba(38, 38, 40, 0.7)', color: 'white', padding: '20px 10px', borderBottom: '1px' }}>
-                                                <Title level={2} style={{ color: 'white'}}>PROFESSIONAL TILING AND PAINTING SERVICES</Title>
-                                            </Col>
-                                            <Col span={24} style={{whiteSpace: "normal", background: 'rgba(38, 38, 40, 0.5)', color: 'white', padding: '35px 20px' }}>
-                                                <p>We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.</p>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </div>
-                    </Carousel>
+                    <Banner data={dataBanner} />
                     <Row gutter={16} align='middle' justify='center' style={{marginLeft: 0, marginRight: 0}}>
                         <Col span={24} style={{textAlign: 'center'}} >
                             <Title level={1} id={'services'} style={{marginTop: 30}} >Nuestros Servicios</Title>

@@ -1,10 +1,9 @@
 import React from 'react'
 import { Outlet } from "react-router-dom"
 
-const PublicRouter = (
-    component,
-    ...rest
-) => {
+const PublicRouter = ({
+    component
+}) => {
     return component ? component : <Outlet />
 }
 

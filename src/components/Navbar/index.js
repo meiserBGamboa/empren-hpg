@@ -16,7 +16,7 @@ const Navbar = () => {
                     </Col>
                     <Col span={20} >
                         <Title level={2} style={{marginTop: 5, marginBottom: 0}} >{'HPG'}</Title>
-                        <Title level={4} style={{marginTop: 0, marginBottom: 0}} >{'Logist & Consulting'}</Title>
+                        <Title level={4} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'Logist & Consulting'}</Title>
                     </Col>
                 </Row>
             </div>

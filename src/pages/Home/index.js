@@ -1,6 +1,5 @@
-import { Col, Layout, Row, Typography } from "antd"
+import { Col, Row, Typography } from "antd"
 import React from "react"
-import Navbar from "../Navbar"
 
 import banner2 from '../../assets/images/banner-02.png'
 import banner3 from '../../assets/images/banner-03.png'
@@ -8,8 +7,7 @@ import banner3 from '../../assets/images/banner-03.png'
 import service1 from '../../assets/images/image_01.jpg'
 import project1 from '../../assets/images/image_05.jpg'
 
-import Footer from "../Footer"
-import Banner from "./Banner"
+import Banner from "../../components/Banner"
 
 const { Title } = Typography
 
@@ -28,10 +26,7 @@ const dataBanner = [
 
 const Home = () => {
     return (
-        <Layout style={{minHeight: '100%'}} >
-            <Layout >
-                <Navbar />
-                <Layout >
+                < >
                     <Banner data={dataBanner} />
                     <Row gutter={16} align='middle' justify='center' style={{marginLeft: 0, marginRight: 0}}>
                         <Col span={24} style={{textAlign: 'center'}} >
@@ -106,10 +101,8 @@ driveway sett or home repair. We provide a professional service for private and 
                             </Row>
                         </Col>
                     </Row>
-                    <Footer />
-                </Layout>
-            </Layout>
-        </Layout>
+                    
+                </>
     )
 }
 

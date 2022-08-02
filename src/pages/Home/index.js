@@ -26,7 +26,9 @@ const dataBanner = [
 const dataService = {
     info: {
         title: 'Nuestros Servicios',
-        description: 'With over 15 years experience and real focus on customer satisfaction, you can rely on us for your next renovation, driveway sett or home repair. We provide a professional service for private and commercial customers.'
+        description: 'With over 15 years experience and real focus on customer satisfaction, you can rely on us for your next renovation, driveway sett or home repair. We provide a professional service for private and commercial customers.',
+        link: '/services',
+        labelLink: 'Ver Todo'
     },
     items: [
         {

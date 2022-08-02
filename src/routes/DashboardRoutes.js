@@ -1,18 +1,24 @@
 import React from "react"
 import { Outlet } from "react-router-dom"
-import { Layout } from "antd"
+import { Grid, Layout } from "antd"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import LateralBar from "../components/LateralBar"
+
+const { useBreakpoint } = Grid
 
 const DashboardRoutes = () => {
+	const { md } = useBreakpoint()
+
     return (
         <Layout style={{minHeight: '100%'}} >
+            <Navbar />
             <Layout >
-                <Navbar />
+                { md ? <></> : <LateralBar /> }
                 <Layout >
                     <Outlet />
+                    <Footer />
                 </Layout>
-                <Footer />
             </Layout>
         </Layout>
     )

@@ -1,5 +1,6 @@
 import { Col, Grid, Layout, Row, Typography } from "antd"
-import logoNav from '../../assets/images/logo-01.png'
+import { Html5Outlined } from '@ant-design/icons'
+//import logoNav from '../../assets/images/logo-01.png'
 import OptionMenu from "./OptionMenu"
 
 const { Header } = Layout
@@ -14,11 +15,12 @@ const Navbar = () => {
             <div style={{width: 350, float: 'left'}}>
                 <Row gutter={8} >
                     <Col span={4} >
-                        <img alt="logo" src={logoNav} style={{width: '100%'}} />
+                        <Html5Outlined style={{ fontSize: '60px', color: '#89B94B' }} />
+                        
                     </Col>
                     <Col span={20} >
-                        <Title level={2} style={{marginTop: 5, marginBottom: 0}} >{'HPG'}</Title>
-                        <Title level={4} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'Logist & Consulting'}</Title>
+                        <Title level={2} style={{marginTop: 5, marginBottom: 0}} >{'FFF'}</Title>
+                        <Title level={4} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'MMMMMMMM MMMMMMMMM'}</Title>
                     </Col>
                 </Row>
             </div>
@@ -28,3 +30,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+//<img alt="logo" src={logoNav} style={{width: '100%'}} />

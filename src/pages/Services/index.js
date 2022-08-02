@@ -102,7 +102,11 @@ const Services = () => {
                             ?
                                 dataServices.map((itm) => {
                                     return (
-                                        <Col span={8} >
+                                        <Col 
+                                        xs={24} 
+                                        sm={12} 
+                                        ls={8} 
+                                        xl={8}  >
                                             <Row >
                                                 <div style={{width: '100%', marginBottom: 20}} >
                                                     <img alt='arq1' src={itm.image} style={{width: '100%'}} />

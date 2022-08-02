@@ -3,7 +3,9 @@ import React from "react"
 import banner2 from '../../assets/images/banner-02.png'
 import banner3 from '../../assets/images/banner-03.png'
 
-import service1 from '../../assets/images/image_01.jpg'
+import service1 from '../../assets/images/service-01.jpeg'
+import service4 from '../../assets/images/service-04.jpeg'
+import service7 from '../../assets/images/service-07.jpeg'
 import project1 from '../../assets/images/image_05.jpg'
 
 import Banner from "../../components/Banner"
@@ -12,12 +14,12 @@ import SectionServices from "../../components/SectionServices"
 
 const dataBanner = [
     {
-        title: 'PROFESSIONAL TILING AND PAINTING SERVICES',
+        title: 'Cambio y/o mantenimiento de interruptores termomagnéticos (ITM) en redes Monofásicas y trifásicas',
         description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
         banner: banner2
     },
     {
-        title: 'PROFESSIONAL TILING AND PAINTING SERVICES',
+        title: 'Instalación de dispositivos de control automático',
         description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
         banner: banner3
     },
@@ -33,17 +35,17 @@ const dataService = {
     items: [
         {
             image: service1,
-            title: 'Interior Renovation',
+            title: 'Pruebas de tensión o falla en el cortocircuito',
             description: 'We can help you bring new life to existing rooms and develop unused spaces.'
         },
         {
-            image: service1,
-            title: 'Interior Renovation',
+            image: service4,
+            title: 'Verificación de pérdidas de energía y fugas de corriente',
             description: 'We can help you bring new life to existing rooms and develop unused spaces.'
         },
         {
-            image: service1,
-            title: 'Interior Renovation',
+            image: service7,
+            title: 'Corrido de línea de tierra en el circuito',
             description: 'We can help you bring new life to existing rooms and develop unused spaces.'
         },
     ]

@@ -1,7 +1,19 @@
 import { Col, Row, Typography } from "antd"
 import React from "react"
 
-import service1 from '../../assets/images/image_05.jpg'
+import service1 from '../../assets/images/service-01.jpeg'
+import service2 from '../../assets/images/service-02.jpeg'
+import service3 from '../../assets/images/service-03.jpeg'
+import service4 from '../../assets/images/service-04.jpeg'
+import service5 from '../../assets/images/service-05.jpeg'
+import service6 from '../../assets/images/service-06.jpeg'
+import service7 from '../../assets/images/service-07.jpeg'
+import service8 from '../../assets/images/service-08.jpeg'
+import service9 from '../../assets/images/service-09.jpeg'
+import service10 from '../../assets/images/service-10.jpeg'
+import service11 from '../../assets/images/service-11.jpeg'
+import service12 from '../../assets/images/service-12.jpeg'
+import service13 from '../../assets/images/service-13.jpeg'
 import './service.css'
 
 const { Title } = Typography
@@ -9,22 +21,67 @@ const { Title } = Typography
 const dataServices = [
     {
         image: service1,
-        title: 'Interior Renovation',
+        title: 'Pruebas de tensión o falla en el cortocircuito',
         description: 'We can help you bring new life to existing rooms and develop unused spaces.'
     },
     {
-        image: service1,
-        title: 'Design and build',
+        image: service2,
+        title: 'Instalación, montaje y armado de tableros industriales',
         description: 'We can help you bring new life to existing rooms and develop unused spaces.'
     },
     {
-        image: service1,
-        title: 'Interior Renovation',
+        image: service3,
+        title: 'Trabajos en altura',
         description: 'We can help you bring new life to existing rooms and develop unused spaces.'
     },
     {
-        image: service1,
-        title: 'Interior Renovation',
+        image: service4,
+        title: 'Verificación de pérdidas de energía y fugas de corriente',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service5,
+        title: 'Instalación de dispositivos de control automático',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service6,
+        title: 'Cambio y/o mantenimiento de interruptores termomagnéticos (ITM) en redes Monofásicas y trifásicas',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service7,
+        title: 'Corrido de línea de tierra en el circuito',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service8,
+        title: 'Fijar, habilitar y tender red de electroductos con tubo corrugado',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service9,
+        title: 'Fijar, habilitar y tender red de electroductos con tuberias PVC y conduit',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service10,
+        title: 'Instalación de bombas de agua en edificios',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service11,
+        title: 'instalacion de sistema contra incendio',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service12,
+        title: 'instalacion de calentador de agua',
+        description: 'We can help you bring new life to existing rooms and develop unused spaces.'
+    },
+    {
+        image: service13,
+        title: 'Instalacion de sistema de intercomunicadores',
         description: 'We can help you bring new life to existing rooms and develop unused spaces.'
     },
 ]

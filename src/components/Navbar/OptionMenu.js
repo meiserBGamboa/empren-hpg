@@ -1,7 +1,6 @@
 import { Grid, Menu } from "antd"
 import React from "react"
 import { Link } from "react-router-dom"
-import LinkerAnchor from "./LinkerAnchor"
 
 const { useBreakpoint } = Grid
 
@@ -19,11 +18,11 @@ const OptionMenu = () => {
                     },
                     {
                         key: 'label 2',
-                        label: <LinkerAnchor id={'services'} subtitle={'servicios'} />
+                        label: <Link to={'/services'} >servicios</Link>
                     },
                     {
                         key: 'label 3',
-                        label: <LinkerAnchor id={'project'} subtitle={'Proyectos'} />
+                        label: <Link to={'/project'} >Proyectos</Link>
                     },
                     {
                         key: 'label 4',

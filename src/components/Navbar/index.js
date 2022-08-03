@@ -20,7 +20,7 @@ const Navbar = () => {
                     </Col>
                     <Col span={20} >
                         <Title level={2} style={{marginTop: 5, marginBottom: 0}} >{'FFF'}</Title>
-                        <Title level={4} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'MMMMMMMM MMMMMMMMM'}</Title>
+                        <Title level={4} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'MMMMMMMM MMMMMMMM'}</Title>
                     </Col>
                 </Row>
             </div>

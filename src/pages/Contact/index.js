@@ -1,47 +1,22 @@
-import { Col, Form, Input, Row } from "antd"
-import { EnvironmentOutlined } from '@ant-design/icons'
+import { Button, Col, Form, Input, Row } from "antd"
 import React from "react"
+import MapsContact from "../../components/MapsContact"
+import BannerContact from "../../components/BannerContact"
 
 const { TextArea } = Input
 
 const Contact = () => {
     return (
         <>
-            <Row align="middle" justify='center' style={{background: '#FFF'}} >
-                <Col span={7} >
-                    <Row >
-                        <Col span={4} >
-                            <EnvironmentOutlined style={{ fontSize: '60px', color: '#89B94B' }} />
-                        </Col>
-                        <Col span={20} >
-                            <p >272 Linden Avenue Winter Park, FL 32789</p>
-                        </Col>
-                    </Row>
-                </Col>
-                <Col span={7} >
-                    <Row >
-                        <Col span={4} >
-                            <EnvironmentOutlined style={{ fontSize: '60px', color: '#89B94B' }} />
-                        </Col>
-                        <Col span={20} >
-                            <p >272 Linden Avenue Winter Park, FL 32789</p>
-                        </Col>
-                    </Row>
-                </Col>
-                <Col span={7} >
-                    <Row >
-                        <Col span={4} >
-                            <EnvironmentOutlined style={{ fontSize: '60px', color: '#89B94B' }} />
-                        </Col>
-                        <Col span={20} >
-                            <p >272 Linden Avenue Winter Park, FL 32789</p>
-                        </Col>
-                    </Row>
+            <Row >
+                <Col span={24} style={{height: 500}} >
+                    <MapsContact latLng={{ lat: -11.9217558, lng: -77.0840852 }} zoomMap={16} />
                 </Col>
             </Row>
+            <BannerContact />
             <Form >
                 <Row align="middle" justify='center' gutter={16} style={{background: '#FFF', marginLeft: 0, marginRight: 0, paddingTop: 30, paddingBottom: 20}} >
-                    <Col span={11} >
+                    <Col xs={24} sm={11} >
                         <Form.Item 
                             name='name' 
                         >
@@ -67,7 +42,7 @@ const Contact = () => {
                             />
                         </Form.Item>
                     </Col>
-                    <Col span={11} >
+                    <Col xs={24} sm={11} >
                         <Form.Item 
                             name='phone' 
                         >
@@ -75,6 +50,12 @@ const Contact = () => {
                                 size='large'
                                 placeholder='Mensaje' 
                             />
+                        </Form.Item>
+                    </Col>
+                    <Col xs={12} sm={20} ></Col>
+                    <Col xs={9} sm={4} >
+                        <Form.Item >
+                            <Button type="primary" size="large" shape="round" >Enviar Mensaje</Button>
                         </Form.Item>
                     </Col>
                 </Row>

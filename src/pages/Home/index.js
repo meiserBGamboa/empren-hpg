@@ -11,6 +11,7 @@ import project1 from '../../assets/images/image_05.jpg'
 import Banner from "../../components/Banner"
 import SectionProject from "../../components/SectionProject"
 import SectionServices from "../../components/SectionServices"
+import BannerContact from "../../components/BannerContact"
 
 const dataBanner = [
     {
@@ -78,6 +79,7 @@ const Home = () => {
             <Banner data={dataBanner} />
             <SectionServices info={dataService.info} dataService={dataService.items} />
             <SectionProject info={dataProject.info} items={dataProject.items} />
+            <BannerContact fill = {false}/>
         </>
     )
 }

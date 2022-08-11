@@ -1,19 +1,19 @@
 import { Col, Row, Typography } from "antd"
 import React from "react"
 
-import service1 from '../../assets/images/service-01.jpeg'
-import service2 from '../../assets/images/service-02.jpeg'
-import service3 from '../../assets/images/service-03.jpeg'
-import service4 from '../../assets/images/service-04.jpeg'
-import service5 from '../../assets/images/service-05.jpeg'
-import service6 from '../../assets/images/service-06.jpeg'
-import service7 from '../../assets/images/service-07.jpeg'
-import service8 from '../../assets/images/service-08.jpeg'
-import service9 from '../../assets/images/service-09.jpeg'
-import service10 from '../../assets/images/service-10.jpeg'
-import service11 from '../../assets/images/service-11.jpeg'
-import service12 from '../../assets/images/service-12.jpeg'
-import service13 from '../../assets/images/service-13.jpeg'
+import service1 from '../../assets/images/service-01.png'
+import service2 from '../../assets/images/service-02.png'
+import service3 from '../../assets/images/service-03.png'
+import service4 from '../../assets/images/service-04.png'
+import service5 from '../../assets/images/service-05.png'
+import service6 from '../../assets/images/service-06.png'
+import service7 from '../../assets/images/service-07.png'
+import service8 from '../../assets/images/service-08.png'
+import service9 from '../../assets/images/service-09.png'
+import service10 from '../../assets/images/service-10.png'
+import service11 from '../../assets/images/service-11.png'
+import service12 from '../../assets/images/service-12.png'
+import service13 from '../../assets/images/service-13.png'
 import BannerContact from "../../components/BannerContact"
 import CardServices from "../../components/CardServices"
 import './service.css'

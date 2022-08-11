@@ -37,8 +37,9 @@ const SectionServices = ({info, dataService}) => {
             <Col 
                 xs={22} 
                 sm={22} 
-                ls={16} 
-                xl={16}  
+                lg={20} 
+                xl={18}  
+                xxl={17}
                 style={{textAlign: 'center'}} 
             >
                 <Row align='middle' justify='center' >

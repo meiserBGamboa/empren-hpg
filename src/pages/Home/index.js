@@ -3,9 +3,9 @@ import React from "react"
 import banner2 from '../../assets/images/banner-02.png'
 import banner3 from '../../assets/images/banner-03.png'
 
-import service1 from '../../assets/images/service-01.jpeg'
-import service4 from '../../assets/images/service-04.jpeg'
-import service7 from '../../assets/images/service-07.jpeg'
+import service1 from '../../assets/images/service-01.png'
+import service5 from '../../assets/images/service-05.png'
+import service7 from '../../assets/images/service-07.png'
 import project1 from '../../assets/images/image_05.jpg'
 
 import Banner from "../../components/Banner"
@@ -40,8 +40,8 @@ const dataService = {
             description: 'We can help you bring new life to existing rooms and develop unused spaces.'
         },
         {
-            image: service4,
-            title: 'Verificación de pérdidas de energía y fugas de corriente',
+            image: service5,
+            title: 'Instalación de dispositivos de control automático',
             description: 'We can help you bring new life to existing rooms and develop unused spaces.'
         },
         {

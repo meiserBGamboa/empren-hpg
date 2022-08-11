@@ -5,6 +5,7 @@ import banner3 from '../../assets/images/banner-03.png'
 
 import service1 from '../../assets/images/service-01.png'
 import service5 from '../../assets/images/service-05.png'
+import service6 from '../../assets/images/service-06.png'
 import service7 from '../../assets/images/service-07.png'
 import project1 from '../../assets/images/image_05.jpg'
 
@@ -17,12 +18,14 @@ const dataBanner = [
     {
         title: 'Cambio y/o mantenimiento de interruptores termomagnéticos (ITM) en redes Monofásicas y trifásicas',
         description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
-        banner: banner2
+        banner: banner2,
+        bannerPhone: service6
     },
     {
         title: 'Instalación de dispositivos de control automático',
         description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
-        banner: banner3
+        banner: banner3,
+        bannerPhone: service5
     },
 ]
 

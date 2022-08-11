@@ -1,0 +1,21 @@
+.title-service::after {
+    display: block;
+    content: "";
+    background: #89B94B;
+    width: 40px;
+    height: 2px;
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-all {
+    background: #89B94B;
+    border: 2px solid #729b3c;;
+}
+
+.button-all:hover {
+    color: #000 !important;
+    background: #fff !important;
+    border: 2px solid #89B94B !important;
+}

@@ -7,7 +7,7 @@ const Banner = ({data}) => {
         <Carousel autoplay>
             {data ?
                 data.map((item, indx) => {
-                    return <ItemBanner key={indx} banner={item.banner} title={item.title} description={item.description} />
+                    return <ItemBanner key={indx} banner={item.banner} bannerPhone={item.bannerPhone} title={item.title} description={item.description} />
                 })
             :
                 <></>

@@ -1,14 +1,64 @@
 import { Col, Row, Typography } from "antd"
 import React from "react"
+import './footer.css'
 
-const { Title } = Typography
+const { Title, Text } = Typography
+
+const dataServices = [
+    {
+        title: 'Pruebas de tensión o falla en el cortocircuito',
+    },
+    {
+        title: 'Instalación, montaje y armado de tableros industriales',
+    },
+    {
+        title: 'Trabajos en altura',
+    },
+    {
+        title: 'Verificación de pérdidas de energía y fugas de corriente',
+    },
+    {
+        title: 'Instalación de dispositivos de control automático',
+    },
+    {
+        title: 'Cambio y/o mantenimiento de interruptores termomagnéticos (ITM) en redes Monofásicas y trifásicas',
+    },
+    {
+        title: 'Corrido de línea de tierra en el circuito',
+    },
+]
+const dataServices2 = [
+    {
+        title: 'Fijar, habilitar y tender red de electroductos con tubo corrugado',
+    },
+    {
+        title: 'Fijar, habilitar y tender red de electroductos con tuberias PVC y conduit',
+    },
+    {
+        title: 'Instalación de bombas de agua en edificios',
+    },
+    {
+        title: 'instalacion de sistema contra incendio',
+    },
+    {
+        title: 'instalacion de calentador de agua',
+    },
+    {
+        title: 'Instalacion de sistema de intercomunicadores',
+    },
+]
 
 const Footer = () => {
     return (
         <div>
-            <Row style={{paddingLeft: 0, paddingRight: 0, padding: 60}} >
-                <Col span={2} ></Col>
-                <Col span={8} >
+            <Row style={{paddingLeft: 30, paddingRight: 30, paddingBottom: 60, paddingTop: 60,}} >
+                <Col xs={0} 
+                    sm={1} ></Col>
+                <Col xs={24} 
+                    sm={8} 
+                    lg={8} 
+                    md={6}
+                    xl={6} >
                     <Row >
                         <Col span={24} >
                             <Title level={3} >Sobre Nosotros</Title>
@@ -18,31 +68,39 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col span={4} ></Col>
-                <Col span={8} >
+                <Col xs={0} 
+                    sm={2} ></Col>
+                <Col xs={24} 
+                    sm={12} 
+                    lg={12} 
+                    md={15}
+                    xl={15} >
                     <Row >
                         <Col span={24} >
-                            <Title level={3} >Sobre Nosotros</Title>
+                            <Title level={3} >Nuestros Servicios</Title>
                         </Col>
-                        <Col span={12} >
+                        <Col xs={24} 
+                            sm={12} >
                             <ul >
-                                <li>Interior Renovation</li>
-                                <li>Interior Renovation</li>
-                                <li>Interior Renovation</li>
-                                <li>Interior Renovation</li>
+                                {dataServices.map((itm) => {
+                                    return(
+                                        <li class="fa fa-check template-bullet"><Text className="text-li" >{itm.title}</Text></li>
+                                    )
+                                })}
                             </ul>
                         </Col>
-                        <Col span={12} >
+                        <Col xs={24} 
+                            sm={12} >
                             <ul >
-                                <li>Interior Renovation</li>
-                                <li>Interior Renovation</li>
-                                <li>Interior Renovation</li>
-                                <li>Interior Renovation</li>
+                                {dataServices2.map((itm) => {
+                                    return(
+                                        <li class="fa fa-check template-bullet"><Text className="text-li" >{itm.title}</Text></li>
+                                    )
+                                })}
                             </ul>
                         </Col>
                     </Row>
                 </Col>
-                <Col span={2} ></Col>
             </Row>
         </div>
     )

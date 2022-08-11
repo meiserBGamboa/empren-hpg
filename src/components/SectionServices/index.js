@@ -2,6 +2,7 @@ import { Button, Col, Row, Typography } from "antd"
 import React from "react"
 import { useNavigate } from "react-router-dom"
 import SectionItemService from "./SectionItemService"
+import './service.css'
 
 const { Title } = Typography
 
@@ -37,9 +38,10 @@ const SectionServices = ({info, dataService}) => {
             <Col 
                 xs={22} 
                 sm={22} 
-                lg={20} 
+                lg={21} 
+                md={20}
                 xl={18}  
-                xxl={17}
+                xxl={18}
                 style={{textAlign: 'center'}} 
             >
                 <Row align='middle' justify='center' >
@@ -58,7 +60,7 @@ const SectionServices = ({info, dataService}) => {
                 </Row>
             </Col>
             <Col span={24} style={{textAlign: 'center', marginTop: 10, marginBottom: 10 }} >
-                <Button type="primary" size="large" shape="round" onClick={sendService} >{info.labelLink}</Button>
+                <Button type="primary" size="large" shape="round" onClick={sendService} className="button-all" >{info.labelLink}</Button>
             </Col>
         </Row>
     )

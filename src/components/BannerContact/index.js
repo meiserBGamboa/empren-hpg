@@ -43,11 +43,13 @@ const BannerContact = ({fill = true}) => {
                 style={{paddingBottom: 30}}
             >
                 <Row >
-                    <Col span={5} >
+                    <Col xs={7} 
+                        sm={5} >
                         <EnvironmentOutlined 
                             style={fill ? styleComponent.icon : styleComponent.icon2} />
                     </Col>
-                    <Col span={19} style={styleComponent.colCenter} >
+                    <Col xs={17} 
+                        sm={19} style={styleComponent.colCenter} >
                         <p style={{margin:0}} >272 Linden Avenue <br /> Winter Park, FL 32789</p>
                     </Col>
                 </Row>
@@ -59,11 +61,13 @@ const BannerContact = ({fill = true}) => {
                 xl={7} 
                 style={{paddingBottom: 30}} >
                 <Row >
-                    <Col span={5} >
+                    <Col xs={7} 
+                        sm={5} >
                         <PhoneOutlined 
                             style={fill ? styleComponent.icon : styleComponent.icon2} />
                     </Col>
-                    <Col span={19} style={styleComponent.colCenter} >
+                    <Col xs={17} 
+                        sm={19} style={styleComponent.colCenter} >
                         <p style={{margin:0}} >272 Linden Avenue <br /> Winter Park, FL 32789</p>
                     </Col>
                 </Row>
@@ -75,11 +79,13 @@ const BannerContact = ({fill = true}) => {
                 xl={7} 
                 style={{paddingBottom: 30}} >
                 <Row >
-                    <Col span={5} >
+                    <Col xs={7} 
+                        sm={5} >
                         <ClockCircleOutlined 
                             style={fill ? styleComponent.icon : styleComponent.icon2} />
                     </Col>
-                    <Col span={19} style={styleComponent.colCenter} >
+                    <Col xs={17} 
+                        sm={19} style={styleComponent.colCenter} >
                         <p style={{margin:0}} >272 Linden Avenue <br /> Winter Park, FL 32789</p>
                     </Col>
                 </Row>

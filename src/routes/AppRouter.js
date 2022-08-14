@@ -6,7 +6,10 @@ import Home from "../pages/Home"
 import Mission from "../pages/Mision"
 import Objectives from "../pages/Objective"
 import Proyect from "../pages/Proyect"
-import Services from "../pages/Services"
+import Service1 from "../pages/Service1"
+import Service2 from "../pages/Service2"
+import Service3 from "../pages/Service3"
+//import Services from "../pages/Services"
 import Values from "../pages/Values"
 import Vision from "../pages/Vision"
 import DashboardRoutes from "./DashboardRoutes"
@@ -22,7 +25,9 @@ const AppRouter = () => {
                     <Route exact path='/vision' element={<Vision />} />
                     <Route exact path='/values' element={<Values />} />
                     <Route exact path='/objective' element={<Objectives />} />
-                    <Route exact path='/services' element={<Services />} />
+                    <Route exact path='/service1' element={<Service1 />} />
+                    <Route exact path='/service2' element={<Service2 />} />
+                    <Route exact path='/service3' element={<Service3 />} />
                     <Route exact path='/project' element={<Proyect />} />
                     <Route exact path='/contact' element={<Contact />} />
                 </Route>

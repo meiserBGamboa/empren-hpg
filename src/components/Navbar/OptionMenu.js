@@ -44,7 +44,7 @@ const OptionMenu = () => {
                     },
                     {
                         key: 'label 4',
-                        label: <Link to={'/project'} >Nuestros Proyectos</Link>
+                        label: <Link to={'/project'} >Proyectos</Link>
                     },
                     {
                         key: 'label 5',

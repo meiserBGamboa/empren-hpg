@@ -75,7 +75,7 @@ const dataServices = [
     },
 ]
 
-const Services = () => {
+const Proyect = () => {
     return (
         <>
             <Row style={{paddingTop: 30,paddingBottom: 10, paddingLeft: 30, paddingRight: 30}} >
@@ -106,4 +106,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Proyect

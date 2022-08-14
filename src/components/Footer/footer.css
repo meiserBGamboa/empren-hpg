@@ -6,6 +6,7 @@ li.template-bullet:before {
     padding-right: 15px;
     margin-left: -30px;
     vertical-align: text-top;
+    width: 100%;
 }
 
 .text-li {

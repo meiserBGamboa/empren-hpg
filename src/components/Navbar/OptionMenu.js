@@ -32,11 +32,15 @@ const OptionMenu = () => {
                                 key: 'submenu-Valores',
                                 label: <Link to={'/values'} >Valores Corporativos</Link>
                             },
+                            {
+                                key: 'submenu-objectives',
+                                label: <Link to={'/objective'} >Objetivos</Link>
+                            },
                         ]
                     },
                     {
                         key: 'label 3',
-                        label: <Link to={'/services'} >servicios</Link>
+                        label: <Link to={'/services'} >Servicios</Link>
                     },
                     {
                         key: 'label 4',

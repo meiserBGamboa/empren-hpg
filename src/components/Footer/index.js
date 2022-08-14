@@ -84,7 +84,7 @@ const Footer = () => {
                             <ul >
                                 {dataServices.map((itm) => {
                                     return(
-                                        <li class="fa fa-check template-bullet"><Text className="text-li" >{itm.title}</Text></li>
+                                        <li class="fa fa-check template-bullet" style={{width: '100%'}} ><Text className="text-li" >{itm.title}</Text></li>
                                     )
                                 })}
                             </ul>
@@ -94,7 +94,7 @@ const Footer = () => {
                             <ul >
                                 {dataServices2.map((itm) => {
                                     return(
-                                        <li class="fa fa-check template-bullet"><Text className="text-li" >{itm.title}</Text></li>
+                                        <li class="fa fa-check template-bullet" style={{width: '100%'}} ><Text className="text-li" >{itm.title}</Text></li>
                                     )
                                 })}
                             </ul>

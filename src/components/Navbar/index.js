@@ -11,7 +11,7 @@ const Navbar = () => {
 	const { md } = useBreakpoint()
 
     return (
-        <Header style={{background: '#fff', height: 102, paddingTop: 15, paddingLeft: 15}}>
+        <Header style={{background: '#fff', height: 115, paddingTop: 15, paddingLeft: 15}}>
             <div style={{width: 350, float: 'left'}}>
                 <Row gutter={8} >
                     <Col span={4} >
@@ -19,8 +19,8 @@ const Navbar = () => {
                         
                     </Col>
                     <Col span={20} >
-                        <Title level={2} style={{marginTop: 5, marginBottom: 0}} >{'FFF'}</Title>
-                        <Title level={4} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'MMMMMMMM MMMMMMMM'}</Title>
+                        <Title level={3} style={{marginTop: 0, marginBottom: 0}} >{'MpG'}</Title>
+                        <Title level={5} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'Logist &'}<br />{'Consulting'}</Title>
                     </Col>
                 </Row>
             </div>

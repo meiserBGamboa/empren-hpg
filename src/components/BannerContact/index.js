@@ -50,7 +50,7 @@ const BannerContact = ({fill = true}) => {
                     </Col>
                     <Col xs={17} 
                         sm={19} style={styleComponent.colCenter} >
-                        <p style={{margin:0}} >272 Linden Avenue <br /> Winter Park, FL 32789</p>
+                        <p style={{margin:0}} > Mz. O Lt. 22 - Urb. Jardines de Shangrilla <br />Ref.: IE 5182 Señor de los Milagros<br />Lima - Lima - Puente Piedra</p>
                     </Col>
                 </Row>
             </Col>
@@ -68,7 +68,7 @@ const BannerContact = ({fill = true}) => {
                     </Col>
                     <Col xs={17} 
                         sm={19} style={styleComponent.colCenter} >
-                        <p style={{margin:0}} >272 Linden Avenue <br /> Winter Park, FL 32789</p>
+                        <p style={{margin:0}} >(+51) 01 2996 946</p>
                     </Col>
                 </Row>
             </Col>
@@ -86,7 +86,7 @@ const BannerContact = ({fill = true}) => {
                     </Col>
                     <Col xs={17} 
                         sm={19} style={styleComponent.colCenter} >
-                        <p style={{margin:0}} >272 Linden Avenue <br /> Winter Park, FL 32789</p>
+                        <p style={{margin:0}} >Atención <br /> Las 24 horas</p>
                     </Col>
                 </Row>
             </Col>

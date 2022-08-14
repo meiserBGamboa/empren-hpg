@@ -18,15 +18,29 @@ const OptionMenu = () => {
                     },
                     {
                         key: 'label 2',
-                        label: <Link to={'/services'} >servicios</Link>
+                        label: 'Nosotros',
+                        children: [
+                            {
+                                key: 'submenu-vision',
+                                label: <Link to={'/vision'} >Vision</Link>
+                            },
+                            {
+                                key: 'submenu-Mision',
+                                label: <Link to={'/mision'} >Mision</Link>
+                            },
+                            {
+                                key: 'submenu-Valores',
+                                label: <Link to={'/values'} >Valores Corporativos</Link>
+                            },
+                        ]
                     },
                     {
                         key: 'label 3',
-                        label: <Link to={'/project'} >Proyectos</Link>
+                        label: <Link to={'/services'} >servicios</Link>
                     },
                     {
                         key: 'label 4',
-                        label: <Link to={'/team'} >Nuestro Equipo</Link>
+                        label: <Link to={'/project'} >Nuestros Proyectos</Link>
                     },
                     {
                         key: 'label 5',
@@ -35,7 +49,8 @@ const OptionMenu = () => {
                 ]}
             style={{
                 display: 'block', 
-                float: 'right'
+                float: 'right',
+                width: 528
             }} 
         />
     )

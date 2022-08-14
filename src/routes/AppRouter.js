@@ -14,9 +14,11 @@ const AppRouter = () => {
             <Routes>
                 <Route exact path='/' element = {<PublicRouter component={<DashboardRoutes />} />} >
                     <Route exact path='/' element={<Home />} />
+                    <Route exact path='/mision' element={<Team />} />
+                    <Route exact path='/vision' element={<Team />} />
+                    <Route exact path='/values' element={<Team />} />
                     <Route exact path='/services' element={<Services />} />
                     <Route exact path='/project' element={<Home />} />
-                    <Route exact path='/team' element={<Team />} />
                     <Route exact path='/contact' element={<Contact />} />
                 </Route>
             </Routes>

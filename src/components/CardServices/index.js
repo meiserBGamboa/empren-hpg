@@ -16,7 +16,7 @@ const CardServices = ({itm}) => {
                     <img alt='arq1' src={itm.image} style={{width: '100%'}} />
                 </div>
                 <Col span={24} >
-                    <Title level={3} style={{textAlign: 'center'}} className='title-service' >{itm.title}</Title>
+                    <Title level={3} style={{textAlign: 'center'}} >{itm.title}</Title>
                 </Col>
                 {(itm.description) 
                 ?

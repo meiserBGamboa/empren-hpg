@@ -19,7 +19,7 @@ const Navbar = () => {
                         
                     </Col>
                     <Col span={20} >
-                        <Title level={3} style={{marginTop: 0, marginBottom: 0}} >{'MpG'}</Title>
+                        <Title level={3} style={{marginTop: 0, marginBottom: 0}} >{'HPG'}</Title>
                         <Title level={5} style={{marginTop: 0, marginBottom: 0}} translate="no" >{'Logist &'}<br />{'Consulting'}</Title>
                     </Col>
                 </Row>

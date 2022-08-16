@@ -15,10 +15,7 @@ const SectionItemService = ({title, description, image}) => {
             <div style={{width: '100%', marginBottom: 20}} >
                 <img alt='arq1' src={image} style={{width: '100%'}} />
             </div>
-            <Title level={3} className='title-service' style={{paddingTop: 10, paddingBottom: 10, paddingLeft: 15, paddingRight: 15, minHeight: 110}}>{title}</Title>
-            <div style={{padding: '25px'}} >
-                <p>{description}</p>
-            </div>
+            <Title level={3} style={{paddingTop: 10, paddingBottom: 10, paddingLeft: 15, paddingRight: 15, minHeight: 110}}>{title}</Title>
         </Col>
     )
 }

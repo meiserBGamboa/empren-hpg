@@ -64,7 +64,7 @@ const Footer = () => {
                             <Title level={3} >Sobre Nosotros</Title>
                         </Col>
                         <Col span={24} >
-                            <p>Founded by Kevin Smith back in 2000. Renovate has estabilished itself as one of the greatest and prestigious providers of construction focused interior renovation services and building.</p>
+                            <p>Nace en agosto del año 2022, ante la demanda creciente por consultoría para la formulación de reclamos por aportes reembolsables, refacturaciones, cambios de tarifa, reducción e incrementos de consumo y demás en la vía administrativa. Además, también asesoría en temas de negociación con empresas distribuidoras de energía para determinar términos contractuales, tarifa, potencia, tensión, modalidad, entre otros.</p>
                         </Col>
                     </Row>
                 </Col>

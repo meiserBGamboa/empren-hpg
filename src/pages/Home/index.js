@@ -7,7 +7,6 @@ import service1 from '../../assets/images/service-01.png'
 import service5 from '../../assets/images/service-05.png'
 import service6 from '../../assets/images/service-06.png'
 import service7 from '../../assets/images/service-07.png'
-import project1 from '../../assets/images/image_05.jpg'
 
 import Banner from "../../components/Banner"
 import SectionProject from "../../components/SectionProject"
@@ -32,7 +31,6 @@ const dataBanner = [
 const dataService = {
     info: {
         title: 'Nuestros Servicios',
-        description: 'With over 15 years experience and real focus on customer satisfaction, you can rely on us for your next renovation, driveway sett or home repair. We provide a professional service for private and commercial customers.',
         link: '/services',
         labelLink: 'Ver Todo'
     },
@@ -58,20 +56,19 @@ const dataService = {
 const dataProject = {
     info: {
         title: 'Proyectos Recientes',
-        description: 'With over 15 years experience and real focus on customer satisfaction, you can rely on us for your next renovation, driveway sett or home repair. We provide a professional service for private and commercial customers.'
     },
     items: [
         {
-            image: project1
+            image: service1
         },
         {
-            image: project1
+            image: service5
         },
         {
-            image: project1
+            image: service7
         },
         {
-            image: project1
+            image: service6
         },
     ]
 }

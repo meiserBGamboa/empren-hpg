@@ -80,7 +80,7 @@ const Proyect = () => {
         <>
             <Row style={{paddingTop: 30,paddingBottom: 10, paddingLeft: 30, paddingRight: 30}} >
                 <Col span={24} >
-                    <Title level={2} >Nuestros Servicios</Title>
+                    <Title level={2} >Proyectos</Title>
                 </Col>
             </Row>
             <Row style={{paddingTop: 60, paddingBottom: 60, background: '#FFF'}} >

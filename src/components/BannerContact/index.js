@@ -68,7 +68,7 @@ const BannerContact = ({fill = true}) => {
                     </Col>
                     <Col xs={17} 
                         sm={19} style={styleComponent.colCenter} >
-                        <p style={{margin:0}} >(+51) 01 2996 946</p>
+                        <p style={{margin:0}} > (01) 2996 946</p>
                     </Col>
                 </Row>
             </Col>

@@ -4,6 +4,7 @@ import { Grid, Layout } from "antd"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import LateralBar from "../components/LateralBar"
+import ButtonWhatsapp from "../components/ButtonWhatsapp"
 
 const { useBreakpoint } = Grid
 
@@ -17,6 +18,7 @@ const DashboardRoutes = () => {
                 { md ? <></> : <LateralBar /> }
                 <Layout >
                     <Outlet />
+                    <ButtonWhatsapp />
                     <Footer />
                 </Layout>
             </Layout>

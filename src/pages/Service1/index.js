@@ -1,5 +1,6 @@
 import { Col, Row, Typography } from "antd"
 import React from "react"
+import imageNav from '../../assets/images/fondo.png'
 
 const { Title, Text } = Typography
 const items = [
@@ -67,9 +68,18 @@ const Service1 = () => {
                     <Title level={2} >Instalación, Reparación y Mantenimiento en BT, MT y AT</Title>
                 </Col>
             </Row>
-            <Row style={{paddingTop: 60, paddingBottom: 60, background: '#FFF'}} >
+            <Row 
+                style={{
+                    paddingTop: 30, 
+                    paddingBottom: 30, 
+                    background: `url(${imageNav})`,
+                    backgroundSize: '100%',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                }}  
+            >
                 <Row  align='middle' justify='center' >
-                    <Col span={18} >
+                    <Col span={18} style={{background: 'rgba(255, 255, 255, 0.7)', padding: 40}} >
                         <ul >
                             {
                                 items.map((itm) => {

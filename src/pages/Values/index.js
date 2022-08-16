@@ -1,5 +1,6 @@
 import { Col, Row, Typography } from "antd"
 import React from "react"
+import imageNav from '../../assets/images/fondo.png'
 
 const { Title, Text } = Typography
 const items = [
@@ -34,9 +35,18 @@ const Values = () => {
                     <Title level={2} >Valores Corporativos</Title>
                 </Col>
             </Row>
-            <Row style={{paddingTop: 60, paddingBottom: 60, background: '#FFF'}} >
+            <Row 
+                style={{
+                    paddingTop: 30, 
+                    paddingBottom: 30, 
+                    background: `url(${imageNav})`,
+                    backgroundSize: '100%',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                }}  
+            >
                 <Row  align='middle' justify='center' >
-                    <Col span={18} >
+                    <Col span={18} style={{background: 'rgba(255, 255, 255, 0.7)', padding: 40}} >
                         <p >Para alcanzar la misión, visión y objetivos, la empresa deberá buscar y cultivar altos estándares de trabajo en todos sus colaboradores y quehacer diario, basándose en los siguientes valores fundamentales:</p>
                         <ul >
                             {

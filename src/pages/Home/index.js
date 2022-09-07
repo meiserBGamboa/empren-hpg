@@ -16,13 +16,11 @@ import BannerContact from "../../components/BannerContact"
 const dataBanner = [
     {
         title: 'Cambio y/o mantenimiento de interruptores termomagnéticos (ITM) en redes Monofásicas y trifásicas',
-        description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
         banner: banner2,
         bannerPhone: service6
     },
     {
         title: 'Instalación de dispositivos de control automático',
-        description: 'We have the experience, personel and resources to make the project run smoothly. We can ensure a job is done on time.',
         banner: banner3,
         bannerPhone: service5
     },

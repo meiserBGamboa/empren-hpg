@@ -52,7 +52,7 @@ const ItemBanner = ({key, banner, bannerPhone, title, description}) => {
                             <Col key={`card-header-${key}`} span={24} style={StyleItem.cardHead}>
                                 <Title key={`card-title-${key}`} level={(md)? 2 : 4} style={{ color: 'white'}}>{title}</Title>
                             </Col>
-                            {md ? 
+                            {(md && description) ? 
                                 <Col key={`card-body-${key}`} span={24} style={StyleItem.cardBody}>
                                     <p key={`card-description-${key}`} >{description}</p>
                                 </Col>

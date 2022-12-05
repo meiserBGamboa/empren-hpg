@@ -50,25 +50,7 @@ const BannerContact = ({fill = true}) => {
                     </Col>
                     <Col xs={17} 
                         sm={19} style={styleComponent.colCenter} >
-                        <p style={{margin:0}} > Mz. O Lt. 22 - Urb. Jardines de Shangrilla <br />Ref.: IE 5182 Señor de los Milagros<br />Lima - Lima - Puente Piedra</p>
-                    </Col>
-                </Row>
-            </Col>
-            <Col 
-                xs={16} 
-                sm={10} 
-                ls={7} 
-                xl={7} 
-                style={{paddingBottom: 30}} >
-                <Row >
-                    <Col xs={7} 
-                        sm={5} >
-                        <PhoneOutlined 
-                            style={fill ? styleComponent.icon : styleComponent.icon2} />
-                    </Col>
-                    <Col xs={17} 
-                        sm={19} style={styleComponent.colCenter} >
-                        <p style={{margin:0}} > (01) 2996 946</p>
+                        <p style={{margin:0}} > Av.Fernando Medina s/n <br />Urb. Jardines de Shangrilla<br />Lima - Lima - Puente Piedra</p>
                     </Col>
                 </Row>
             </Col>
@@ -95,3 +77,25 @@ const BannerContact = ({fill = true}) => {
 }
 
 export default BannerContact
+
+/*
+
+            <Col 
+                xs={16} 
+                sm={10} 
+                ls={7} 
+                xl={7} 
+                style={{paddingBottom: 30}} >
+                <Row >
+                    <Col xs={7} 
+                        sm={5} >
+                        <PhoneOutlined 
+                            style={fill ? styleComponent.icon : styleComponent.icon2} />
+                    </Col>
+                    <Col xs={17} 
+                        sm={19} style={styleComponent.colCenter} >
+                        <p style={{margin:0}} > (01) 2996 946</p>
+                    </Col>
+                </Row>
+            </Col>
+            */

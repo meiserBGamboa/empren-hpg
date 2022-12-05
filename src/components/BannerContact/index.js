@@ -1,5 +1,5 @@
 import { Col, Row } from "antd"
-import { EnvironmentOutlined, PhoneOutlined, ClockCircleOutlined } from '@ant-design/icons'
+import { EnvironmentOutlined, ClockCircleOutlined } from '@ant-design/icons'
 import React from "react"
 
 const styleComponent = {
